@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#D1D8E0">
+
+    <TextView
+        android:id="@+id/id_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Console"
+        android:padding="10dp"
+        android:background="#8E9AC7"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/id_bt_get_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_header"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Test Get and Set"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:id="@+id/id_bt_read_msr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_header"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/id_bt_get_set"
+        android:layout_marginStart="16dp"
+        android:text="Read MSR" />
+
+    <Button
+        android:id="@+id/id_bt_read_ibutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_header"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/id_bt_read_msr"
+        android:layout_marginStart="16dp"
+        android:text="Read iButton" />
+
+    <Button
+        android:id="@+id/id_bt_read_msr_ibutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_header"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/id_bt_read_ibutton"
+        android:layout_marginStart="16dp"
+        android:text="Read MSR and iButton" />
+
+    <Button
+        android:id="@+id/id_bt_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_header"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/id_bt_read_msr_ibutton"
+        android:layout_marginStart="16dp"
+        android:text="Clear" />
+
+    <EditText
+        android:id="@+id/id_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_bt_get_set"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:hint=""
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="true"
+        android:overScrollMode="always"
+        android:layout_gravity="top"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical|horizontal" />
+</RelativeLayout>
