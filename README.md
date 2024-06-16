@@ -1,5 +1,5 @@
 # example.adr.lib
-the Example of Android liblpu237 aar library.(use liblpu237 v1.1) <br>
+the Example of Android liblpu237 aar library.(use liblpu237 v1.3) <br>
 this source code describes how to use liblpu237 aar library.<br>
 
 
