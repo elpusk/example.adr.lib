@@ -18,7 +18,7 @@ dependencies {
 # Using secenario
 ## To change system parameters.
 ### Basic step
-+ lirary on
++ library on
 + get device list
 + get target device permission.
 + open device
@@ -36,7 +36,7 @@ dependencies {
 
 ## To read magetic card data.
 ### Basic step
-+ lirary on
++ library on
 + get device list
 + get target device permission.
 + open device
@@ -55,7 +55,7 @@ dependencies {
 
 ## To read i-button.
 ### Basic step
-+ lirary on
++ library on
 + get device list
 + get target device permission.
 + open device
@@ -73,7 +73,7 @@ dependencies {
 
 ## To read MSR and i-button.
 ### Basic step
-+ lirary on
++ library on
 + get device list
 + get target device permission.
 + open device
