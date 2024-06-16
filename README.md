@@ -34,9 +34,12 @@ dependencies {
 + this method executes on independent thread from UI thread.
 + this method represents the above Basic step.
 
+### more details
++ [here](/doc/getset.md)
+
 ## To read magetic card data.
 ### Basic step
-+ library on
++ library on.
 + get device list
 + get target device permission.
 + open device
@@ -51,6 +54,9 @@ dependencies {
 + _startMainTaskReadingMsr() method of  [MainActivity.java](/app/src/main/java/kr/co/elpusk/example/lib/MainActivity.java)
 + this method executes on independent thread from UI thread.
 + this method represents the above Basic step.
+
+### more details
++ [here](/doc/readmsr.md)
 
 
 ## To read i-button.
@@ -71,6 +77,9 @@ dependencies {
 + this method executes on independent thread from UI thread.
 + this method represents the above Basic step.
 
+### more details
++ [here](/doc/readibutton.md)
+
 ## To read MSR and i-button.
 ### Basic step
 + library on
@@ -89,3 +98,5 @@ dependencies {
 + this method executes on independent thread from UI thread.
 + this method represents the above Basic step.
 
+### more details
++ [here](/doc/readmsributton.md)
