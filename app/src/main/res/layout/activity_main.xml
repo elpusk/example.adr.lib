@@ -58,12 +58,22 @@
         android:text="Read MSR and iButton" />
 
     <Button
-        android:id="@+id/id_bt_clear"
+        android:id="@+id/id_bt_read_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/id_header"
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@id/id_bt_read_msr_ibutton"
+        android:layout_marginStart="16dp"
+        android:text="Cancel Read" />
+
+    <Button
+        android:id="@+id/id_bt_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_header"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/id_bt_read_cancel"
         android:layout_marginStart="16dp"
         android:text="Clear" />
 
