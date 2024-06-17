@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-    Lpu237Callback m_cb_read_msr_ibutton = new CbMsrRead(Lpu237Callback.TypeRx.RX_MSR_IBUTTON);
+    Lpu237Callback m_cb_read_msr_ibutton = new CbMsriButtonRead(Lpu237Callback.TypeRx.RX_MSR_IBUTTON);
 
     private ExecutorService m_executorService;
     private Handler m_mainHandler;
@@ -525,6 +525,12 @@ public class MainActivity extends AppCompatActivity {
                 String sVal = "";
                 sVal = api.GetId(hDev);
                 Util.sendBroadercast(in, Const.STDOUT, Const.STR_KEY_STDOUT, " * device UID : "+sVal+"\n");
+
+                sVal = api.ToolsMsrGetName(hDev);
+                Util.sendBroadercast(in, Const.STDOUT, Const.STR_KEY_STDOUT, " * device name : "+sVal+"\n");
+
+                sVal = api.ToolsMsrGetVersion(hDev);
+                Util.sendBroadercast(in, Const.STDOUT, Const.STR_KEY_STDOUT, " * device version : "+sVal+"\n");
 
                 boolean bValue = false;
 
